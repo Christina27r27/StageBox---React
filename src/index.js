@@ -10,6 +10,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 
 
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

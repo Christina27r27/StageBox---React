@@ -1,12 +1,14 @@
 import React from 'react'
 import CarouselComponent from './CarouselComponent'
+import Header from './HeaderComponent';
+
 
 const Home = () => {
     return (
-        <div style={{color: '#fff'}}>
-            Home View
-            <CarouselComponent />
-        </div>
+          <div>
+              <Header />
+              <CarouselComponent />
+          </div>
     )
 }
 

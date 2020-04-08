@@ -19,7 +19,21 @@ html {
  
 
 }
+
+.aboutTitle {
+   color: rgb(207, 36, 36);
+   margin-left: 190px;
+   margin-top:60px;
+   padding:30px;
    
+}
+
+.aboutBody {
+   margin-left: 50px;
+   background-color: rgb(0,0,0,0.4);
+   color: white;
+  
+}
 
 
 .fa {
@@ -57,4 +71,48 @@ hr {
    margin: auto;
    
  
+}
+
+.staging{
+   background-color: rgb(44, 44, 44);
+   padding:60px;
+   width:400px;
+}
+
+.modelHome{
+   background-color: rgb(44, 44, 44);
+   padding:60px;
+   width:400px;
+}
+
+.stagingTitle {
+   margin-left: 70px;
+   font-size: 35px;
+   color: rgb(207, 36, 36);
+   
+   
+}
+
+.homeicon{
+   margin-left: 95px;
+}
+
+.furniture{
+   background-color: rgb(202, 106, 106);
+   padding:60px;
+   width:400px;
+}
+
+.furnitureTitle, .designTitle, .modelTitle {
+   margin-left: 70px;
+   font-size: 35px;
+   color: rgb(207, 36, 36);
+   
+}
+
+.designStudio{
+   background-color: rgb(202, 106, 106);
+   padding:60px;
+   width:400px;
+   height:353px
 }

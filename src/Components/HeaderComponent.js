@@ -3,6 +3,7 @@ import {Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron, B
 import {NavLink, Link} from 'react-router-dom';
 
 
+
 class Header extends Component {
     constructor(props){
         super(props);
@@ -28,7 +29,7 @@ class Header extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-8 col-lg-4 mx-auto">
-                            <Link to="/">
+                            <Link to="/home">
                                 <h1 className="mainTitle text-white">StageBox</h1>
                             </Link>
                         </div>
@@ -41,7 +42,7 @@ class Header extends Component {
                     <Collapse isOpen={this.state.isNavOpen} navbar>
                         <Nav navbar>
                             <NavItem>
-                                <NavLink active className="nav-link" to="/aboutus">
+                                <NavLink className="nav-link" to="/aboutus">
                                     About us 
                                 </NavLink>
                             </NavItem>
