@@ -61,10 +61,7 @@ hr {
    
 }
 
-.home:hover {
-   width:500px;
-   height:500px;
-}
+
 
 .navbar {
    background-color:rgba(0,0, 0, 0.4);
@@ -116,3 +113,14 @@ hr {
    width:400px;
    height:353px
 }
+
+.wholeForm{
+   background-color: rgba(247, 104, 104, 0.4);
+
+   margin-top: 100px;
+}
+
+.insta{
+   font-size:30px;
+}
+
