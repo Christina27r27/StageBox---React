@@ -120,7 +120,14 @@ hr {
    margin-top: 100px;
 }
 
-.insta{
-   font-size:30px;
+.insta:hover{
+   font-size:50px;
 }
 
+.insta{
+   font-size: 30px;
+}
+
+.FirstPage{
+   font-size: 50px;
+}

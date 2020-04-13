@@ -5,12 +5,15 @@ import About from './AboutComponent';
 import Contact from './ContactComponent';
 
 
+
 const Home = () => {
     return (
+      
           <div>
               <Header />
-              <CarouselComponent />
+              <CarouselComponent />       
           </div>
+         
     )
 }
 

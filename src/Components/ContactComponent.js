@@ -49,7 +49,7 @@ class Contact extends Component{
     render(){
         return(
             <React.Fragment>
-                <Header />
+                
                 <div className="container wholeForm">
                     <div className="row row-content">
                         <div className="col-xm mx-auto  text-white ">
