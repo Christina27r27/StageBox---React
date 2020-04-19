@@ -7,13 +7,16 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import {BrowserRouter , Route,  Link} from 'react-router-dom';
 
 
 
 
 ReactDOM.render(
   <React.StrictMode>
+    <BrowserRouter>
     <App />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
