@@ -1,5 +1,5 @@
 import React from 'react'
-import CarouselComponent from './CarouselComponent'
+import MyCarousel from './CarouselComponent'
 import Header from './HeaderComponent';
 import About from './AboutComponent';
 import Contact from './ContactComponent';
@@ -11,7 +11,7 @@ const Home = () => {
       
           <div>
               
-              <CarouselComponent />       
+              <MyCarousel />       
           </div>
          
     )

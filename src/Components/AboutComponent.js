@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import { Card, CardBody, CardHeader, Media } from 'reactstrap';
-import { Link } from 'react-router-dom';
-import Header from './HeaderComponent';
-import { FadeTransform } from 'react-animation-components';
+import { FadeTransform, Stagger, Fade } from 'react-animation-components';
 
 
 
@@ -32,6 +30,8 @@ class About extends Component {
                 </div> 
                 </FadeTransform>
                 <div className="container offset-2">
+                <Stagger in>
+                    <Fade>
                     <div className="row"> 
                         <div className=" col-xm   homestaging">
                             <div className= "staging text-white">
@@ -73,6 +73,8 @@ class About extends Component {
                             </div>
                         </div>
                     </div>
+                    </Fade>
+                    </Stagger>
                 </div>     
         </React.Fragment>
         );
